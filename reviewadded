@@ -1,0 +1,5 @@
+cURL command:
+curl -X PUT "http://localhost:5000/customer/auth/review/1?review=This%20is%20an%20excellent%20book." -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InN0dWRlbnQxMjMiLCJkYXRhIjoic3R1ZGVudDEyMyIsImlhdCI6MTc5MTAwODE3MCwiZXhwIjoxNzkxMDExNzcwfQ.2PCcvXH31SQCtmujKwXkWJcukTpCK_J_jCDIhoaKXCc"
+
+output:
+The review for the book with ISBN 1 has been added/updated.
